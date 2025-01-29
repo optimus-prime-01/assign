@@ -1,21 +1,3 @@
-I'll provide you with a step-by-step guide to set up the railway management system in Visual Studio Code and test it using Postman. Here's what we'll do:
-
-1. Set up the project in VS Code
-2. Install dependencies
-3. Set up the database
-4. Configure environment variables
-5. Run the server
-6. Test the API endpoints using Postman
-
-
-Let's get started:
-
-1. Set up the project in VS Code:
-
-a. Open VS Code
-b. Create a new folder for your project
-c. Open the terminal in VS Code (Terminal > New Terminal)
-d. Navigate to your project folder
 
 
 2. Install dependencies:
@@ -31,9 +13,8 @@ npm install --save-dev nodemon
 
 3. Set up the database:
 
-a. Install PostgreSQL if you haven't already ([https://www.postgresql.org/download/](https://www.postgresql.org/download/))
-b. Create a new database named 'railway_management'
-c. In VS Code, create a new file 'db/schema.sql' and paste the following SQL:
+a. Create a new database named 'railway_management'
+b. In VS Code, create a new file 'db/schema.sql' and paste the following SQL:
 
 ```sql
 CREATE TABLE users (
